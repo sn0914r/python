@@ -31,3 +31,20 @@ while i<=3:
     print(i, end=" ")
     i=i+1
 #output : 1 2 3
+
+
+# break and continue
+"""
+the break statement is used to conditionally terminate the ongoing loop.
+
+the continue statement is used to conditionally skip the current iteration and moves to the next iteration
+"""
+
+for i in (10, 20, 30, 40, 50):
+	if i == 30:
+		continue #skips at 30
+	if i == 50:
+		break # terminates at 50
+	print(i, end=" ")
+
+#output : 10 20 40
